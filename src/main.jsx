@@ -10,6 +10,8 @@ export const renderReactApp = (shadowHost) => {
   const container = document.createElement("body");
   shadowRoot.appendChild(container);
 
+
+  console.log("I'm shadow render!")
   // Add a link to the CSS file for styling the React app inside the Shadow DOM
   const link = document.createElement("link");
   link.rel = "stylesheet"; // Specify that this is a stylesheet link
