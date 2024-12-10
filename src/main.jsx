@@ -15,7 +15,7 @@ export const renderReactApp = (shadowHost) => {
   // Add a link to the CSS file for styling the React app inside the Shadow DOM
   const link = document.createElement("link");
   link.rel = "stylesheet"; // Specify that this is a stylesheet link
-  link.href = "https://raw.githubusercontent.com/MaurizioFaedda/shadow-widget/refs/heads/main/dist/react-app.css"; // URL to the CSS file
+  link.href = "https://mauriziofaedda.github.io/shadow-widget/dist/react-app.css"; // URL to the CSS file
   shadowRoot.appendChild(link);
   // Initialize the React root and render the App component in the container
   const root = ReactDOM.createRoot(container);
