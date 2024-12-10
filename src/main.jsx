@@ -7,7 +7,7 @@ export const renderReactApp = (shadowHost) => {
   const shadowRoot = shadowHost.attachShadow({ mode: "open" });
 
   // Create a container element (in this case, a <body>) inside the Shadow DOM
-  const container = document.createElement("body");
+  const container = document.createElement("div");
   shadowRoot.appendChild(container);
 
 
